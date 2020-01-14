@@ -1,4 +1,4 @@
-NUMBERS...
+nuMBERS...
 
 1. Match any digit in the following line: 
 
@@ -13,12 +13,12 @@ NUMBERS...
 156
 1777
 1878
+177
 
-
-3. An OpenITI author URI contains exactly 4 digits followed by a transcripton of the name of the author in CamelCase (without spaces or normal characters). Match the correct URIs. 
+3. An OpenITI author URI contains exactly 4 digits followed by a transcripton of the name of the author in CamelCase (without spaces or other non-letter characters). Match the correct URIs. 
 
 310Tabari
-0310Tabari
+0310TabariHamdani
 0310al-Tabari
 0310.al-Tabari
 0255Al-Jahiz
@@ -36,10 +36,10 @@ CAPTURING
 
 1. Capture the names of the participants in the workshop and reformat them to first name last name: 
 
-Alam, Anjum
-Barber, Mathew
-Bowen Savant, Sarah
-Jaques, Kevin
+Anjum Alam
+Mathew Barber
+Sarah Bowen Savant
+Kevin Jaques
 Loynes, Simon Peter
 Nigst, Lorenz
 Qurboniev, Aslisho

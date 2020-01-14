@@ -15,4 +15,4 @@ Useful links:
     + https://regex101.com/ (Java, Python and PCRE)
     + https://pverkind.github.io/arabicVirtualKeyboard/
 
-A link to the presentation and solutions to the exercises will be uploaded after the training. 
+The presentation can be found here: https://docs.google.com/presentation/d/1c_z9LFSeT2pqHrFrgG1CrwOks6P5N1wbLmnCTqMBncI/edit?usp=sharing
