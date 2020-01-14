@@ -1,0 +1,139 @@
+NUMBERS...
+
+1. Match any digit in the following line: 
+
+1 5 8 ؜٣؜ ٦ ؜٨ ؜ ٥ ۵
+
+
+2. Match all years in the 18th century: 
+
+756
+1756
+1856
+156
+1777
+1878
+
+
+3. An OpenITI author URI contains exactly 4 digits followed by a transcripton of the name of the author in CamelCase (without spaces or normal characters). Match the correct URIs. 
+
+310Tabari
+0310Tabari
+0310al-Tabari
+0310.al-Tabari
+0255Al-Jahiz
+0255Jahiz
+0000anonymous
+0255الطبري
+
+
+4. Match all English words in this document (but not the Arabic ones): 
+
+
+
+CAPTURING
+
+
+1. Capture the names of the participants in the workshop and reformat them to first name last name: 
+
+Alam, Anjum
+Barber, Mathew
+Bowen Savant, Sarah
+Jaques, Kevin
+Loynes, Simon Peter
+Nigst, Lorenz
+Qurboniev, Aslisho
+Vandenbossche, Gowaart
+Verkinderen, Peter
+
+
+2. Palindromes: a palindrome is a word that can be flipped and still looks the same (like radar). Write a regex that can match any 4- or 5-letter palindrome. 
+
+redivider, deified, civic, radar, level, rotor, kayak, reviver, racecar, redder, madam, refer, ...
+
+
+
+
+
+
+FUN WITH TABARI
+
+
+
+1. Open the Tabari text in the repository in EditPadPro
+
+
+2. match all headings of the second level (### ||): 
+
+
+3. Replace all double line breaks with single line breaks. 
+
+
+4. Emulate the highlighting scheme: 
+   write a regex that highlights titles of all levels (not only the tags): 
+   write a regex that highlights the beginning of a paragraph
+
+
+
+4. Hemistychs are marked with "..." in the text; but the mARkdown standard is to use "%~%". Replace the "..." with the standard pattern.
+
+
+4. Match all occurrences of سلام (but make sure you're not matching اسلام)
+
+
+5. Match all occurrences of anna/inna (not li'anna!)
+
+
+6. Match all perfect forms of the eighth form (iftaʿala) of the verb manaʿa
+
+
+7. Match all verbal forms of the eighth form of the same verb.
+
+
+8. Make sure the page numbers all follow the following pattern: PageVxxPxxx           
+
+
+9. Match all words that follow the mishmish pattern (C1C2C1C2)
+
+
+10. A new year in Tabari's Tarikh starts with the words "thumma dakhalat sana". Capture (!) the page numbers on which a new year starts. 
+
+11. Write a regex that captures all persons in al-Ṭabarī whose father's name was Muḥammad. 
+
+
+
+
+
+
+
+
+
+MORE COMPLEX EXERCISES: 
+
+
+1. Write a regex that matches any spelled-out number
+
+2. Write a pattern that detects end rhyme in subsequent verses: 
+
+
+3. Write a pattern that detects an ABAB end rhyme scheme. 
+
+
+4. Write a regex that matches any spelled-out number (wāḥid, ithnayn, etc.)
+
+
+5. Write an isnad highlighter (some naivité is allowed) 
+
+
+
+6. write a regex that highlights named entities that consist of one word and are preceded by a one-letter prefix (as described in the OpenITI mARkdown page: https://alraqmiyyat.github.io/mARkdown/)
+
+
+7. write a regex that highlights named entities that consist of two word and are preceded by a one-letter prefix (as described in the OpenITI mARkdown page: https://alraqmiyyat.github.io/mARkdown/)
+
+
+
+
+
+
+
